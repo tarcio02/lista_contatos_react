@@ -1,9 +1,13 @@
 import styled from "styled-components"
 
-export const StyleForm = styled.div`
+export const StyleForm = styled.form`
 display: grid;
 gap: 8px;
 margin-bottom: 24px;
+
+input{
+    width: 100%;
+}
 
 .btn{
     background-color: green;

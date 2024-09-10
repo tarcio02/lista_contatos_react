@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Contato from "../../components/Contato/";
+import Contato from "../../components/Contato/Contato";
 import { StyleLista} from "./style";
 import { RootReducer } from "../../store";
 

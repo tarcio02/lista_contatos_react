@@ -3,10 +3,11 @@ import { StyleInput } from "./style"
 type props = {
     tipo: string;
     funcao: string
+    valor: string
 }
-const Input: React.FC<props> = ({tipo, funcao}) => {
+const Input: React.FC<props> = ({tipo, funcao, valor}) => {
     return (
-        <StyleInput type={tipo} placeholder={funcao} >
+        <StyleInput value={valor} type={tipo} placeholder={funcao} >
         </ StyleInput>
     )
 }
